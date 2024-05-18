@@ -14,6 +14,7 @@ const Paths = () => {
                 </Route>
                 <Route path="/login" element= {<Login />} />
                 <Route path="*" element= {<h1>404 Not Found</h1>} />
+                <Route path="/home" element= {<Home />} />
             </Routes>
         </BrowserRouter>
 
